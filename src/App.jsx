@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Timer from './Timer.jsx';
 import Title from './Title.jsx'
-class App extends React.Component(){
+class App extends React.Component{
     constructor(){
         super();
     }
