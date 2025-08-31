@@ -1,0 +1,51 @@
+/* index.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apple system font stack */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+               "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.02em; /* subtle negative tracking */
+}
+
+/* Card */
+.main {
+  text-align: center;
+  padding: 4rem 5rem;
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.main:hover {
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+}
+
+/* Headings */
+h1 {
+  font-size: 3.5rem;        /* very big like Apple headers */
+  font-weight: 700;         /* strong */
+  margin-bottom: 1rem;
+  letter-spacing: -0.04em;  /* Apple-like tightness */
+}
+
+h2 {
+  font-size: 2.5rem;        /* bigger clock style */
+  font-weight: 300;         /* thin, elegant */
+  color: #333;
+  letter-spacing: -0.03em;
+}
